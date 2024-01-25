@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Gill Sans Extrabold', sans-serif; /*change family font*/
+}
+
+
+p {
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+@font-face {
+    font-family: 'Goudy Bookletter 1911';
+    src: local('Goudy Bookletter 1911'), url('https://example.com/goudy-bookletter-1911.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Goudy Bookletter 1911', 'Gill Sans Extrabold', sans-serif;
+}
+
+body, header, section, footer {
+    margin: 20px; 
+}
+
+
+h2, h3, header p, section p, footer p, footer small {
+    font-family: "Century Gothic", Futura, sans-serif;
+}
+p {
+    max-width: 800px; 
+    line-height: 1.4; 
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 65%; 
+    }
+    header {
+        padding: 30px; 
+    }
+    section {
+        padding: 0 30px; 
+    }
+    footer {
+        padding: 20px; 
+    }
+}
+
+
+@font-face {
+    font-family: 'Gill Sans Extrabold';
+    src: local('Gill Sans Extrabold'), url('https://example.com/gill-sans-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
